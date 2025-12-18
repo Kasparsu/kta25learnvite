@@ -1,0 +1,6 @@
+@use 'sass:color';
+$bgcolor: teal;
+
+body {
+    background: color.scale($bgcolor, $lightness: 30%);
+}
